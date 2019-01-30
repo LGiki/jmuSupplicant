@@ -17,7 +17,7 @@
 首先请确保系统已安装 ```libpcap``` 库以及 ```CMake``` 。
 
 ```bash
-git clone https://github.com/ShanQincheng/jmuSupplicant.git
+git clone https://github.com/LGiki/jmuSupplicant.git
 cd jmuSupplicant
 mkdir build
 cd build
@@ -80,7 +80,7 @@ cp -r pcap /home/xxx/openwrt-sdk-18.06.0-ar71xx-generic_gcc-7.3.0_musl.Linux-x86
 ### 交叉编译 jmuSupplicant
 
 ```bash
-git clone https://github.com/ShanQincheng/jmuSupplicant.git
+git clone https://github.com/LGiki/jmuSupplicant.git
 cd jmuSupplicant
 mkdir build
 cd build
@@ -120,6 +120,7 @@ make
 
 - 计算机：
   - Ubuntu 17.10
+  - Ubuntu Server 18.04.1 LTS
   - Archlinux 4.17.8-1-ARCH
 - 路由器：
   - MT7620
