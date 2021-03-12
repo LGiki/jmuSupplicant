@@ -22,9 +22,9 @@
 
 #include "eap_frames_operations.h"
 
-uint8_t eapol_start[1000];  // eapol start frame
-uint8_t eap_response_identity[1000]; 
-uint8_t eap_response_md5_challenge[1000];  
+uint8_t eapol_start[604];  // eapol start frame
+uint8_t eap_response_identity[618];
+uint8_t eap_response_md5_challenge[635];
 uint8_t eapol_heartbeat[45];
 pcap_t *descr = NULL;// PCAP packet capture descriptor for the specified interface.
 SEND_FRAME_TYPE current_state;
